@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    float: left;
+}
+
+.col-1 {
+    width: 8.333333%;
+}
+
+.col-2 {
+    width: 16.666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333333%;
+}
+
+.col-5 {
+    width: 41.666667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333333%;
+}
+
+.col-8 {
+    width: 66.666667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.333333%;
+}
+
+.col-11 {
+    width: 91.666667%;
+}
+
+.col-12 {
+    width: 100%
+}
+.profile-wrpper{
+    width: 19rem !important;
+    height: 19.2rem;
+    position: relative;
+    /* border: 2.1rem solid #32a4e7; */
+    margin-top: 4.5rem !important;
+    
+}
+.box-right{
+width: 8.6rem;
+    height: 8.1rem;
+    /* border: 7px solid #f77a90; */
+    position: absolute;
+    right: -1.1rem;
+    top: 5.5rem;
+    left: 13rem;
+
+}
+.box-left{
+width: 8.6rem;
+    height: 8.1rem;
+    /* border: 7px solid skyblue; */
+    position: absolute;
+    left: -16.1rem;
+    bottom: 4.5rem;
+}   
+.profile-color-ball{
+    padding-top: 22%;
+    padding-left: 15%;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Noto Sans";
+}
+.title{
+    color: #f179a7;
+}
+.working-area{
+    padding-left: 15%;
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 15px;
+    font-family: "Noto Sans";
+}
+.role{
+    color: #44a6d3;
+}
+.profile-wrpper img{
+    width: 105%;
+    position: absolute;
+    height: 100%;
+    z-index: 9999;
+    border-radius: 50%;
+}
+.fex{
+    background:  #f6f7fd;;
+}
+.vun{
+    padding-left: 10% !important;
+}
+.fex{
+    padding-left: 15% !important;
+    padding-bottom: 20px !important;
+}
+.koli{
+    padding-top: 5%;
+    
+}
+.koli h1{
+    text-align: center;
+  font-weight: 800;
+  color: #ea4c89;
+  
+}
+.koli p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+.skill-set{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+}
+
+.skill{
+    
+text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+.skill p{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 800;
+    padding-left: 5%;
+}
+.skill img{
+    padding: 10px ;
+    border-radius: 12%;
+    
+}
+.skill h1{
+    color: #fff;
+    text-align: end;
+    font-weight: 700;
+}
+.css img{
+    padding-top: 17%;
+}
+.css p{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 800;
+    padding-left: 5%;
+}
+.js img{
+    background: #fff;
+}
+.Adobe-Illustrator{
+    padding: 45px;
+}
+.sch{
+    padding-top: 5%;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #ea4c89;
+    border-left: 1px soild #000;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.college{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 42% !important;
+    text-align: initial;
+   
+}
+.wid{
+    
+}
+.cl{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 42% !important;
+    text-align: initial;
+   
+}
+.binet{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: -37px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #f18b8b;
+    border: 2px solid #f18b8b;
+}
+    
+ul{
+    padding-left: 0rem !important;
+   
+}
+li::marker{
+    color: #ea4c89;
+    
+}
+.college-lo{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 42% !important;
+    text-align: initial;
+}
+.cl{
+    color: #32a4e7;
+}
+.cl-1{
+    color: #32a4e7;
+    padding-top: 10px !important;
+    list-style: none !important;
+}
+.exd{
+    padding-top: 30px !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ea4c89;
+    text-align: center;
+}
+.profilecolor-ball .profile-color-ball-1{
+    padding-top: 20px !important;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
